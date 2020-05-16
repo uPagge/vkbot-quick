@@ -31,6 +31,15 @@ sadtech:
         app-id: идентификатор_вашего_приложения
         token: токен_для_сервисного_доступа
 ```
+- Добавьте исключение в зависимость _spring-boot-starter_:
+```
+<exclusions>
+    <exclusion>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-logging</artifactId>
+    </exclusion>
+</exclusions>
+```
 
 - Создайте новый класс конфигурации и приступайте к настройкам бинов юнитов. [Как настраивать?]()
 

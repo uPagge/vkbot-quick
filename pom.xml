@@ -8,9 +8,15 @@
     <version>1.0.0-RELEASE</version>
     <packaging>jar</packaging>
 
-    <name>automatic-configuration</name>
+    <name>vkbot-quick</name>
     <description>Быстрое создание бота для группы ВКонтакте.</description>
     <url>https://github.com/uPagge/vkbot-quick</url>
+    <licenses>
+        <license>
+            <name>BSD 3-Clause "New" or "Revised" License</name>
+            <url>https://github.com/uPagge/vkbot-quick/blob/develop/LICENSE</url>
+        </license>
+    </licenses>
 
     <scm>
         <connection>scm:git:https://github.com/uPagge/vkbot-quick.git</connection>
